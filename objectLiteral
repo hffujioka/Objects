@@ -1,0 +1,12 @@
+var newName = prompt("What is his new first name?"); //asked the user for a new name
+
+var cole = {
+firstName:"Cole",
+lastName:"House",
+age: 15,
+grade: 10
+}; //created an object with values
+
+cole.firstName = newName; //reassigned firstName to the chosen name
+
+window.alert(cole.firstName); //display new name on screen
