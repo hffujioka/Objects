@@ -22,3 +22,19 @@ var macy = {
 var x = [haylee,jacob,macy];
 
 window.alert(x[1].friends[0]);
+//created arrays within an object and showed array values on screen//
+
+
+
+var bankAccount = {};
+
+bankAccount["name"] = "Haylee";
+
+bankAccount["balance"] = 1000;
+
+var withdrawal = prompt("How much are you withdrawing?");
+  
+bankAccount["balance"] -= withdrawal;
+
+window.alert(bankAccount.balance);
+//manipulated the value of a key in an object with a simple math function//
