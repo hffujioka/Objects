@@ -1,0 +1,16 @@
+var classroom = {
+	classnumber: "F103",
+  teacher: "Mr. Kam",
+  students: 18
+  };
+  
+var userInput = prompt("classnumber or students?");
+var lowerCase = userInput.toLowerCase();
+
+if ((lowerCase === "classnumber") || (lowerCase === "students")) {
+	window.alert(classroom[lowerCase]);
+}
+
+else {
+	window.alert("invalid input");
+}
