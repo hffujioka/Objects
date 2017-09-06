@@ -12,14 +12,15 @@ if ((lowerCase === "classnumber") || (lowerCase === "students")) {
 } //
 
 else { //if input is invalid, the loop runs again//
-	for(i = 0; i<3; i++) {
-  	var userInput = prompt("classnumber or students?");
+	for(i = 1; i<3; i++) {
+  	var userInput = prompt("classnumber or students? You have tried " + i + "times);
 		var lowerCase = userInput.toLowerCase();
 
 	if ((lowerCase === "classnumber") || (lowerCase === "students")) {
     	   i = 3;
 	   window.alert(classroom[lowerCase]); //loops ends if valid input is entered//
   	}
+
    }
 }
 
